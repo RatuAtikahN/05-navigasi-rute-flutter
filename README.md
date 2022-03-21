@@ -1,9 +1,9 @@
 # belanja
 
-# Nama  : Ratu Atikah Nurissobach
-# NIM   : 2031710145
-# Prodi : D3 Manajemen Informatika
-# Kelas : MI 2C / 20
+-mNama  : Ratu Atikah Nurissobach
+- NIM   : 2031710145
+- Prodi : D3 Manajemen Informatika
+- Kelas : MI 2C / 20
 
 ## Hasil Screenshot Tugas Praktikum 5
 1. ![Hasil Praktikum 5](img/hasil.jpg)
