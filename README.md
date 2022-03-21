@@ -1,6 +1,6 @@
 # belanja
 
--mNama  : Ratu Atikah Nurissobach
+- Nama  : Ratu Atikah Nurissobach
 - NIM   : 2031710145
 - Prodi : D3 Manajemen Informatika
 - Kelas : MI 2C / 20
