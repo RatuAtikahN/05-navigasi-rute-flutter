@@ -1,0 +1,38 @@
+import 'package:flutter/material.dart';
+import 'package:belanja/models/item.dart';
+
+class CardWidget extends StatelessWidget {
+  const CardWidget({
+    Key? key,
+    required this.item,
+  }) : super(key: key);
+
+  final Item item;
+// Ratu Atikah Nurissobach - MI2C/20 - 2031710145
+  @override
+  Widget build(BuildContext context) {
+    return Card(
+      child: Container(
+        margin: const EdgeInsets.all(8),
+        child: Row(
+          children: [
+            Expanded(child: Text(item.name)),
+            Expanded(
+              child: Text(
+                item.quantity.toString(),
+                textAlign: TextAlign.center,
+              ),
+            ),
+            Expanded(
+              child: Text(
+                '${item.price}',
+                textAlign: TextAlign.end,
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+// Ratu Atikah Nurissobach - MI2C/20 - 2031710145
